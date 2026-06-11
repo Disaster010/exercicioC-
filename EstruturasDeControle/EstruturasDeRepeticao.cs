@@ -37,7 +37,35 @@ namespace CursoCSharp.EstruturasDeControle {
             Console.WriteLine($"soma de todos os {jogos} são {soma}");
             
             */
-        }
+
+
+            int contador = 0;
+            int tentativas = 3;
+            Console.WriteLine("digite a senha: ");
+            string password = Console.ReadLine();
+
+            while (password != "1234L" && contador != 3) {
+                Console.WriteLine($"Senha inválida!, Você tem {tentativas-contador} tentativas." +
+                    $"Digite a senha novamente: ");
+                password = Console.ReadLine();
+
+                if (password == "1234L") {
+                    Console.WriteLine("Acesso Permitido!");
+                    break;
+                } else {
+                    Console.WriteLine("Acesso Negado!");
+                    contador++;
+                }
+
+
+
+
+
+
+
+            }
+
+            }
     }
 }
   

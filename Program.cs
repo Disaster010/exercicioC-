@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 
@@ -19,6 +18,7 @@ namespace CursoCSharp {
                 {"Exercicio2 - Estruturas De Controle",Exercicio2.Executar},
                 {"Estrutura Switch - Estruturas De Controle",EstruturaSwitch.Executar},
                 {"Estruturas de Repetição - Estruturas De Controle",EstruturasDeRepeticao.Executar},
+                {"Exercicio3 - Estruturas De Controle",Exercicio3.Executar},
             });
 
             central.SelecionarEExecutar();
