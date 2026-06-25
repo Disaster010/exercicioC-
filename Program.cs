@@ -28,6 +28,12 @@ namespace CursoCSharp {
                 {"CalcularDesconto - Classes e Métodos",CalcularDesconto.Executar},
                 {"ContaBancaria - Classes e Métodos",ContaBancaria.Executar},
                 {"Exercicio4 - Classes e Métodos",Exercicio4.Executar},
+                {"OficinaMecanica - Classes e Métodos",OficinaMecanica.Executar},
+                {"Exercicio5 - Classes e Métodos",Exercicio5.Executar},
+                {"Params - Classes e Métodos",Params.Executar},
+                {"Paramêtros Soma - Classes e Métodos",Soma.Executar},
+                {"Lanchonete - Classes e Métodos",Lanchonete.Executar},
+                {"Exercicio6 - Classes e Métodos",Exercicio6.Executar},
             });
 
             central.SelecionarEExecutar();
